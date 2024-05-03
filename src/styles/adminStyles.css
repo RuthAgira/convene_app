@@ -1,0 +1,279 @@
+
+.app-body{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .sidebar{
+    box-sizing: border-box;
+    width: 20%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin: 70px 0px 0px 0px;
+    gap: 10px;
+  }
+  
+  
+  .sidebar-title{
+    color: rgb(248, 246, 242);
+    border-bottom: solid 1px white;
+    font-weight: bolder;
+  }
+  .sidebar-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .sidebar-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px 5px 5px 5px;
+  }
+  
+  .sidebar-item-extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  /*body section*/
+  .first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    width: 95%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .add-meetup-form{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  .add-meetup-form form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+
+  .add-meetup-form form input,textarea{
+    width: 99%;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-radius: 5px;
+  }
+
+  .add-meetup-form .actions{
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .add-meetup-form .actions button{
+    padding: 5px 10px;
+    color: wite;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    border: solid 1px white;
+}
+
+ .add-meetup-form .actions #cancel-button{
+    background-color: red;
+ }
+
+ .add-meetup-form .actions #submit-button{
+    background-color: green;
+ }
+  
+  
+  .add-meetup-button{
+    padding: 6px 10px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+
+  }
+
+  .add-meetup-button:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .add-meetup-button .plus-icon{
+   width: 30px;
+   height: 30px;
+   background-color: white;
+   border-radius: 15px;
+   color: black;
+   font-size: 20px;
+   font-weight: bolder;
+  }
+
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 95%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    max-height: 500px;
+  }
+  
+  
+  /* questins list styles */
+  .question-list {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .question-item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 5px 30px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(252, 251, 251, 0.1);
+  }
+
+  .question-author-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .question-question {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .question-answer{
+    font-size: smaller;
+    color: gray;
+  }
+  
+  .question-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #a6a4a4;
+  }
+  
+  .posted-by,
+  .group,
+  .votes {
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  .group-page{
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+  }
+  
+  /* .question-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 5px;
+  }
+  
+  .question-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  
+  
+  .question{
+    box-sizing: border-box;
+    padding: 0px 20px 5px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    border-bottom: solid 1px white;
+    border-radius: 5px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  width: 70%;
+  min-height: 100vh;
+  height:  fit-content;
+  min-width: 350px;
+  background-color: rgb(2, 25, 75);
+  color: white;
+  padding: 10px;
+}
+
+.navbar{
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: solid 1px white;
+}
+
+/* 
+.vote-button { */
+  /* Style the vote button */

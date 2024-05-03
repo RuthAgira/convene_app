@@ -1,0 +1,266 @@
+.public-home-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.public-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.public-sidebar, .side-bar-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+    font-weight: bold; 
+}
+
+.public-sidebar-link{
+    text-decoration: none;
+    color: white;
+}
+
+.public-body{
+    padding: 20px 10px;
+    box-sizing: border-box;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.new-question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+
+.new-question-form{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.new-question form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+    gap: 20px;
+}
+
+.new-question form input, textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+.new-question form .actions{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.new-question form .actions button{
+   padding: 7px 10px;
+   border-radius: 4px;
+   border: solid 1px white;
+}
+
+/* .new-question form .actions button:nth-child(1){ */
+.new-question form .actions #cancel-button{
+    color: white;
+    background-color: red;
+}  
+
+.new-question form .actions #submit-button{
+    color: white;
+    background-color: green;
+}
+
+.new-question-btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.top-questions{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.qustion-card{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: solid 1px lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.qustion-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+
+
+.question-posted-in{
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.qustion-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.question-author-avator{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.question-extras{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-bar{
+    box-sizing: border-box;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-left: solid white 1px;
+    padding: 20px 10px;
+    height: 100vh;
+    /* gap: 10px; */
+}
+
+.groups{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.group-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.group-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.public-auth-screen-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 400px;
+    background-color: lightgrey;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.field{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+.auth-section button{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 0px;
+    text-align: center;
+    color: #fefcfc;
+    background-color: rgb(8, 80, 203);
+    box-sizing: border-box;
+    border: solid 1px rgb(8, 80, 203);
+    border-radius: 3px;
+}
+
+.create-account{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
